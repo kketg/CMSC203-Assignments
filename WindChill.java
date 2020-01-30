@@ -7,14 +7,11 @@ public class WindChill {
 		Scanner sc = new Scanner(System.in);
 		double temp = -46;
 		double windSpeed = 0;
-		while (!(temp <= 40 && temp >= -45)) {
-			System.out.println("Enter a temperature between -45 and 40 Fahrenheit: ");
-			temp = sc.nextDouble();
-		}
-		while (!(windSpeed <= 60 && windSpeed >= 5)) {
-			System.out.println("Enter the wind speed between 5 and 60 mph: ");
-			windSpeed = sc.nextDouble();
-		}
+		System.out.println("Enter a temperature between -45 and 40 Fahrenheit: ");
+		temp = sc.nextDouble();
+		System.out.println("Enter the wind speed between 5 and 60 mph: ");
+		windSpeed = sc.nextDouble();
+		
 		sc.close();
 		System.out.println("\nTemperature: " + temp + "°F\nWind Speed: " + windSpeed + " mph");
 
