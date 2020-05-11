@@ -1,0 +1,11 @@
+TASK 2:
+	F3 appears to be undefined at around 3, according to the console.
+	F4, as can be predicted from f3's behavior, is equal to 0 at about 3
+	(according to the console, at about 3.05)
+Task 3:
+	As x approaches 0, f5(x) takes on very irregular behavior. This is likely because the 
+	value of 1/x gets closer to 1 as x approaches 0, meaning that the sin(1/x) gets closer 
+	to sin(1). However, f5(0) becomes undefined at x=0, because you cannot take the sine of 
+	1/0.
+
+	
